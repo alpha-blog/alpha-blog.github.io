@@ -1,3 +1,11 @@
+# start
+
+bundle exec jekyll serve
+
+Mathjax 사용법, LaTeX 사용법
+https://mkkim85.github.io/blog-apply-mathjax-to-jekyll-and-github-pages/
+https://joddong.github.io/develop/Jekyll_with_latex/
+
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
@@ -13,14 +21,14 @@ Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building per
 **If you enjoy this theme, please consider sponsoring:**
 
 [!["Buy Me A Coffee"](https://user-images.githubusercontent.com/1376749/120938564-50c59780-c6e1-11eb-814f-22a0399623c5.png)](https://www.buymeacoffee.com/mmistakes)
- [![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
+[![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
 
 **Note:** The theme uses the [jekyll-include-cache](https://github.com/benbalter/jekyll-include-cache) plugin which will need to be installed in your `Gemfile` and added to the `plugins` array of `_config.yml`. Otherwise you'll encounter `Unknown tag 'include_cached'` errors at build.
 
 [![Minimal Mistakes live preview][2]][1]
 
 [1]: https://mmistakes.github.io/minimal-mistakes/
-[2]: screenshot.png (live preview)
+[2]: screenshot.png "live preview"
 
 ![layout examples](screenshot-layouts.png)
 
@@ -41,29 +49,29 @@ Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building per
 
 This theme comes in nine different skins (in addition to the default one).
 
-| `air` | `contrast` | `dark` |
-| --- | --- | --- |
+| `air`                                                                                                                                                                                 | `contrast`                                                                                                                                                                                           | `dark`                                                                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [![air skin](https://mmistakes.github.io/minimal-mistakes/assets/images/air-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/air-skin-archive-large.png) | [![contrast skin](https://mmistakes.github.io/minimal-mistakes/assets/images/contrast-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/contrast-skin-archive-large.png) | [![dark skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dark-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/dark-skin-archive-large.png) |
 
-| `dirt` | `mint` | `sunrise` |
-| --- | --- | --- |
+| `dirt`                                                                                                                                                                                   | `mint`                                                                                                                                                                                   | `sunrise`                                                                                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [![dirt skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dirt-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/dirt-skin-archive-large.png) | [![mint skin](https://mmistakes.github.io/minimal-mistakes/assets/images/mint-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/mint-skin-archive-large.png) | [![sunrise skin](https://mmistakes.github.io/minimal-mistakes/assets/images/sunrise-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/sunrise-skin-archive-large.png) |
 
-| `aqua` | `neon` | `plum` |
-| --- | --- | --- |
+| `aqua`                                                                                                                                                                                   | `neon`                                                                                                                                                                                   | `plum`                                                                                                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [![aqua skin](https://mmistakes.github.io/minimal-mistakes/assets/images/aqua-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/aqua-skin-archive-large.png) | [![neon skin](https://mmistakes.github.io/minimal-mistakes/assets/images/neon-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/neon-skin-archive-large.png) | [![plum skin](https://mmistakes.github.io/minimal-mistakes/assets/images/plum-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/plum-skin-archive-large.png) |
 
 ## Demo pages
 
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
+| Name                                            | Description                                                   |
+| ----------------------------------------------- | ------------------------------------------------------------- |
+| [Post with Header Image][header-image-post]     | A post with a large header image.                             |
 | [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tag. |
+| [Syntax Highlighting Post][syntax-post]         | Post displaying highlighted code.                             |
+| [Post with a Gallery][gallery-post]             | A post showing several images wrapped in `<figure>` elements. |
+| [Sample Collection Page][sample-collection]     | Single page from a collection.                                |
+| [Categories Archive][categories-archive]        | Posts grouped by category.                                    |
+| [Tags Archive][tags-archive]                    | Posts grouped by tag.                                         |
 
 Additional sample posts are available under [posts archive][year-archive] on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs).
 
@@ -219,13 +227,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Minimal Mistakes incorporates icons from [The Noun Project](https://thenounproject.com/) 
+Minimal Mistakes incorporates icons from [The Noun Project](https://thenounproject.com/)
 creators Garrett Knoll, Arthur Shlain, and tracy tam.
 Icons are distributed under Creative Commons Attribution 3.0 United States (CC BY 3.0 US).
 
 Minimal Mistakes incorporates [Font Awesome](http://fontawesome.io/),
 Copyright (c) 2017 Dave Gandy.
-Font Awesome is distributed under the terms of the [SIL OFL 1.1](http://scripts.sil.org/OFL) 
+Font Awesome is distributed under the terms of the [SIL OFL 1.1](http://scripts.sil.org/OFL)
 and [MIT License](http://opensource.org/licenses/MIT).
 
 Minimal Mistakes incorporates photographs from [Unsplash](https://unsplash.com).
