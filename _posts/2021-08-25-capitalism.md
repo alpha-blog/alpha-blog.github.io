@@ -6,7 +6,7 @@ search: true
 toc: true
 toc_sticky: true
 categories:
-  - 투자
+  - investment
 last_modified_at: 2021-08-25T08:06:00-05:00
 ---
 
