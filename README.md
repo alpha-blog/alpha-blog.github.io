@@ -2,6 +2,8 @@
 
 bundle exec jekyll serve
 
+[Page Link](https://alpha-blog.github.io/)
+
 Mathjax 사용법, LaTeX 사용법
 https://mkkim85.github.io/blog-apply-mathjax-to-jekyll-and-github-pages/
 https://joddong.github.io/develop/Jekyll_with_latex/
